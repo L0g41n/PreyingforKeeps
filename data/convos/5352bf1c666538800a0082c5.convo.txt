@@ -1,0 +1,248 @@
+idRef {
+  id: "5352bf1c666538800a0082c5"
+}
+ui_name: "Marina.Manager"
+nodes {
+  idRef {
+    id: "5352c129666538b40a004d0f"
+  }
+  index: 0
+  text: "Hold it there, Son...  When I agreed to hide that seaplane for your, you didn\'t tell me that it was going to be the tri-d novahot star of the evening news.  There is no way you can leave that thing here... \n\n$(scene.sPlaneDamaged)"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+}
+nodes {
+  idRef {
+    id: "5352eb65666538700a001578"
+  }
+  index: 1
+  text: "So... What\'ll it be?"
+  branches {
+    responseText: "{{CC}}[Bribe]{{/CC}}\nYour right... we\'re bring more heat than we expected.   How\'s an extra $(scene.sBribe)\302\245 sound?"
+    actions {
+      ops {
+        functionName: "Set Variable (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "iMarinaManager"
+            }
+          }
+        }
+        args {
+          int_value: 0
+        }
+      }
+    }
+    nextNodeIndex: 2
+  }
+  branches {
+    responseText: "{{CC}}[Threaten]{{/CC}} \nNegotiating after the fact?   Such business pratices are dangerous... people tend to get upset when someone welshes on an origional agreement...  People like me..."
+    actions {
+      ops {
+        functionName: "Set Variable (int)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (int)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "iMarinaManager"
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    nextNodeIndex: 5
+  }
+  branches {
+    responseText: "{{CC}}[Kill]{{/CC}} \nI\'ve had a pretty fraggin\' rough night, Chummer... You pick the wrong day to mess with me..."
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+}
+nodes {
+  idRef {
+    id: "5352eb65666538700a00157b"
+  }
+  index: 2
+  text: "{{CC}}[John\'s eyes light up quickly, but he looks away to hide them]{{/CC}}\n\n$(scene.sBribe)\302\245? Every law enforcement agency in the world is going to be looking for that plane. Not to mention the owners of the boat that currently resides at the bottom of the sea... Seems like for this kind of heat I was thinking... ten times that... Or maybe I just start making a few anonymous tips..."
+  branches {
+    responseText: "Or... How about $(scene.sBribe)\302\245... and I let you keep your teeth."
+    nextNodeIndex: 3
+  }
+  branches {
+    responseText: "Alright... $(scene.sBribeLG)\302\245.  But you\'d better hold up your end of the deal."
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "Yeah... Let me get back to you on that..."
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "5352eb65666538700a00157e"
+  }
+  index: 3
+  text: "Uh.. Yeah... Sounds about right... A pleasure doing business with you."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+  actions {
+    ops {
+      functionName: "Remove Nuyen"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iBribePrice"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5352ecb2666538700a0015ce"
+  }
+  index: 4
+  text: "No problem.   Never heard nothin\'... never saw nothin\'...."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+  actions {
+    ops {
+      functionName: "Remove Nuyen"
+      args {
+        call_value {
+          functionName: "Get Variable (int)"
+          args {
+            string_value: "iBribePriceLG"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "5352eb65666538700a001585"
+  }
+  index: 5
+  text: "{{CC}}[Swallows hard]{{/CC}}\n\nWhat I meant was that I think our original agreement was fair... And... uh... I may have mistaken you for the... uh... other guy. My apologies."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+}
+nodes {
+  idRef {
+    id: "5352efa4666538700a001684"
+  }
+  index: 6
+  text: "No... wai......."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5352bfd5666538b40a004d08"
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "529d4c2061313190d0006953"
+          }
+          args {
+            string_value: "iMarinaManager"
+          }
+        }
+      }
+      args {
+        int_value: 2
+      }
+    }
+    ops {
+      functionName: "Attack Actor With Weapon"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Player)"
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "5352bfd5666538b40a004d08"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Kill Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "5352bfd5666538b40a004d08"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "DeathMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+}
+roots {
+  nextNodeIndex: 0
+}

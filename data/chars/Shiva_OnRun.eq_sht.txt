@@ -1,0 +1,16 @@
+unique_id: "Shiva_OnRun"
+equipment {
+  prefab_name: "Berlin_Player_Adeptcombatvest"
+}
+equipment {
+  prefab_name: "Berlin_Sword 2 KatanaDikoteOkano"
+}
+equipment {
+  prefab_name: "SMG 2 Colt TZ-110 (Silencer)"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+equipment {
+  prefab_name: "Berlin_BuMoNAPlatinum"
+}

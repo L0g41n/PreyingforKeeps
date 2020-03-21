@@ -1,0 +1,8 @@
+id: "SeaHawk Data Disc"
+type: ItemType_QuestItem
+uirep {
+  name: "DataDisc"
+  description: "The data disc containing the files taken from the security station aboard the Seattle SeaHawk."
+}
+credentials: 0
+sorting_group: "Quest"

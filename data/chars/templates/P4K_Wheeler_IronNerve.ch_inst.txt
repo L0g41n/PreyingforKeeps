@@ -1,0 +1,57 @@
+prefab_name: "Seattle:Core/DwarfMale"
+character_sheet_id: "BaseCivilian"
+equipment_sheet_id: "Wheeler_OnRun"
+character_mod {
+  stats {
+    body: 5
+    quickness: 3
+    strength: 3
+    charisma: 3
+    intelligence: 7
+    willpower: 4
+    essence: 0
+    hp: 15
+    ap: 1
+    armor: 10
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 0
+  }
+  skills {
+    ranged_combat: 4
+    close_combat: 4
+    decking: 4
+    drone_control: 8
+    biotech: 6
+    dodge: 4
+    etiquette_corporate: 1
+    etiquette_security: 1
+    etiquette_shadowrunner: 1
+  }
+  specializations {
+    pistol: 4
+    unarmed: 4
+    drone_combat: 8
+  }
+  vulnerabilities {
+  }
+}
+team_id: "Shadowrunners"
+char_name: "Wheeler Iron-Nerve"
+pc_spawn_number: -1
+hiring_type: HiringType_None
+can_combat_shove: true
+cyberware_jack: "Datajack"
+cyberware_body: "Berlin_Synthacardium Mk 2 (Bioware)"
+cyberware_left_leg: "Berlin_Hydraulic Jack Mk 2"
+cyberware_right_leg: "Obvious Cyberleg 2"
+portrait {
+  filename: "Wheeler Ironnerve"
+}
+portrait_code_override: "s3h6c3b10c3t0"
+karma: 255
+hiring_cost_override: 1000

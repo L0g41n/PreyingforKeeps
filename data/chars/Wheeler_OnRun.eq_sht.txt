@@ -1,0 +1,25 @@
+unique_id: "Wheeler_OnRun"
+equipment {
+  prefab_name: "RiggerFlightsuit"
+}
+equipment {
+  prefab_name: "DroneRepairKit_hi"
+}
+equipment {
+  prefab_name: "DroneRepairKit_hi"
+}
+equipment {
+  prefab_name: "DroneSupportS_Wolfhound"
+}
+equipment {
+  prefab_name: "DroneAttackS_Guardian"
+}
+equipment {
+  prefab_name: "Berlin_BuMoNAPlatinum"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+equipment {
+  prefab_name: "Pi 3 Ruger Super Warhawk (Smartlink)"
+}

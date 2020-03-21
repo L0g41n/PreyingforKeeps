@@ -1,0 +1,25 @@
+unique_id: "Elvis_OnRun"
+equipment {
+  prefab_name: "SamuraiMilitary"
+}
+equipment {
+  prefab_name: "Berlin_Fist 2 Punching Dagger"
+}
+equipment {
+  prefab_name: "Berlin_AR 3 Colt M23 (Smartlink)"
+}
+equipment {
+  prefab_name: "Berlin_BuMoNAPlatinum"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+equipment {
+  prefab_name: "Berlin_Grenade (HE Phosphorus)"
+}
+equipment {
+  prefab_name: "Berlin_Grenade 2 (Frag)"
+}

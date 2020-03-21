@@ -1,0 +1,12 @@
+id: "Shiva\'s Body"
+type: ItemType_QuestItem
+uirep {
+  name: "Shiva\'s Bodybag"
+  description: "A large heavy bodybag contains your friend Shiva."
+}
+credentials: 0
+sorting_group: "Quest"
+closeupImage {
+  filename: "Marina/Marina_Corpse_ShivainBag_s@2x"
+}
+closeupCaption: "Shiva\'s body, in a climate controled bodybag."

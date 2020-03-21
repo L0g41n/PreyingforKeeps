@@ -1,0 +1,1258 @@
+idRef {
+  id: "531e4a6b666538600d005c14"
+}
+ui_name: "SeaHawk.TeamAssign"
+nodes {
+  idRef {
+    id: "531e4a81666538600d005c1a"
+  }
+  index: 0
+  text: "Heya $(story.Nickname)...   We\'re coming up on the SeaHawk.  We\'ll need to break into teams to make this run go smoothly.  I need to stay here with the bird, but can take a few guys as an arial support team.   (Aerial)\n\nWe\'ll also need a diversionary team.  The bigger and louder the better.  (Shield)\n\nYou and ArchAngel will need to sneak onto the boat and into the security building to access their computers and rip those files... maybe take another gun with you?   ArchAngel isn\'t much help in a fire fight... (Shadow)"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "534a2279613131440d000dc1"
+  }
+}
+nodes {
+  idRef {
+    id: "531e53f6666538600d005cad"
+  }
+  index: 1
+  text: "Okay, $(story.Nickname) - where should the runners be assigned?"
+  branches {
+    responseText: "Quint Duran\n[Currently: $(scene.sDuran)]"
+    actions {
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 2
+  }
+  branches {
+    responseText: "Elvis\n[Currently: $(scene.sElvis)]"
+    actions {
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 3
+  }
+  branches {
+    responseText: "Cullin Trey\n[Currently: $(scene.sCullen)]"
+    actions {
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 4
+  }
+  branches {
+    responseText: "Shiva\n[Currently: $(scene.sShiva)]"
+    actions {
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Remove Tag from Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 5
+  }
+  branches {
+    responseText: "Don\'t call me $(story.Nickname)."
+    nextNodeIndex: 6
+  }
+  branches {
+    responseText: "Alright, Lets hit it."
+    conditions {
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Comparison (string)"
+            args {
+              call_value {
+                functionName: "Get Variable (string)"
+                args {
+                  string_value: "sColin"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              string_value: "Unassigned"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Comparison (string)"
+            args {
+              call_value {
+                functionName: "Get Variable (string)"
+                args {
+                  string_value: "sDuran"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              string_value: "Unassigned"
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "AND"
+        args {
+          call_value {
+            functionName: "Comparison (string)"
+            args {
+              call_value {
+                functionName: "Get Variable (string)"
+                args {
+                  string_value: "sElvis"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              string_value: "Unassigned"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Comparison (string)"
+            args {
+              call_value {
+                functionName: "Get Variable (string)"
+                args {
+                  string_value: "sShiva"
+                }
+              }
+            }
+            args {
+              call_value {
+                functionName: "Get Preset Value (int)"
+                args {
+                  string_value: "IsOrIsNot"
+                }
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+              string_value: "Unassigned"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 7
+    hideIfUnavailable: true
+  }
+  branches {
+    responseText: "Circle around, I\'m still deciding."
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "534a2279613131440d000dc1"
+  }
+}
+nodes {
+  idRef {
+    id: "531e53f6666538600d005cb0"
+  }
+  index: 2
+  text: "{{CC}}ArchType Street Sam{{/CC}}\n\nHis face a map of past violence. Silver tainted his bushy dark hair, and gold hoop earrings dangled from his elongated ears. His synth leathered armor was as scarred and war-worn as his face, and he held a pump-action Franchi SPAS-22 combat shotgun in one gnarled fist.\n\nWhere ya want me, boss?"
+  branches {
+    responseText: "ShadowTeam, with me."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sDuran"
+            }
+          }
+        }
+        args {
+          string_value: "Shadow"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Shield Team, make some noise."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sDuran"
+            }
+          }
+        }
+        args {
+          string_value: "Shield"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Aerial Coverage... Make it rain."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f597666538e00a005f98"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sDuran"
+            }
+          }
+        }
+        args {
+          string_value: "Aerial"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5345f597666538e00a005f98"
+  }
+}
+nodes {
+  idRef {
+    id: "531e5c6e666538600d005ee1"
+  }
+  index: 3
+  text: "{{CC}}ArchType Street Sam{{/CC}}\n\nNearly two and a half meters of hard muscle and broad mien. The flat features showed a cruel history, reflected in a silver-crowned tusk and a twisted left horn.\n\nTalk to me, Chief..."
+  branches {
+    responseText: "ShadowTeam, with me."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sElvis"
+            }
+          }
+        }
+        args {
+          string_value: "Shadow"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Shield Team, make some noise."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sElvis"
+            }
+          }
+        }
+        args {
+          string_value: "Shield"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Aerial Coverage... Make it rain."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345e8d86665387404005f95"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sElvis"
+            }
+          }
+        }
+        args {
+          string_value: "Aerial"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5345e8d86665387404005f95"
+  }
+}
+nodes {
+  idRef {
+    id: "531e76cb666538b40e00540e"
+  }
+  index: 4
+  text: "{{CC}}ArchType: Mage{{/CC}}\n\nWorn form-fitting body armor and a heavy Kevlar cape with high collar that was almost roguish on his slender, intense build and handsome face.\n\n\nYes?"
+  branches {
+    responseText: "ShadowTeam, with me."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sCullen"
+            }
+          }
+        }
+        args {
+          string_value: "Shadow"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Shield Team, make some noise."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sCullen"
+            }
+          }
+        }
+        args {
+          string_value: "Shield"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Aerial Coverage... Make it rain."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "534601b2666538e00a005f9b"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sCullen"
+            }
+          }
+        }
+        args {
+          string_value: "Aerial"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "534601b2666538e00a005f9b"
+  }
+}
+nodes {
+  idRef {
+    id: "531e77fd666538b40e00544e"
+  }
+  index: 5
+  text: "{{CC}}ArchType: Street Sam{{/CC}}\n\nFlame-haired and also dressed in skintight black, was just hitting the deck. More than two meters tall and possessing skillsofts and vat muscle.\n\nShiva looks in your direction, awaiting instructions..."
+  branches {
+    responseText: "ShadowTeam, with me."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shadow"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sShiva"
+            }
+          }
+        }
+        args {
+          string_value: "Shadow"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Shield Team, make some noise."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Shield"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sShiva"
+            }
+          }
+        }
+        args {
+          string_value: "Shield"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Aerial Coverage... Make it rain."
+    actions {
+      ops {
+        functionName: "Add Tag to Actor"
+        args {
+          call_value {
+            functionName: "Get Map Item (SenseTagList)"
+            args {
+              string_value: "Aerial"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Actor)"
+                args {
+                  string_value: "5345f554666538e00a005f97"
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "sShiva"
+            }
+          }
+        }
+        args {
+          string_value: "Aerial"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "5345f554666538e00a005f97"
+  }
+}
+nodes {
+  idRef {
+    id: "531fdffb613131b8110015f3"
+  }
+  index: 6
+  text: "Alright, what would you like me to call you?"
+  branches {
+    responseText: "Oh, Chief. I get it, I\'m Amerind, I\'m in charge. Chief is fine with me."
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "Nickname"
+            }
+          }
+        }
+        args {
+          string_value: "Chief"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "I\'m in charge, call me Boss."
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "Nickname"
+            }
+          }
+        }
+        args {
+          string_value: "Boss"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "We\'re friends, call me Jack."
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "Nickname"
+            }
+          }
+        }
+        args {
+          string_value: "Jack"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "My friends call me Jack- you can call me Skater."
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "529d4c2061313190d0006953"
+            }
+            args {
+              string_value: "Nickname"
+            }
+          }
+        }
+        args {
+          string_value: "Skater"
+        }
+      }
+    }
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "534a2279613131440d000dc1"
+  }
+}
+nodes {
+  idRef {
+    id: "531e57d9666538600d005dc7"
+  }
+  index: 7
+  text: "You sure on the team assignments, $(story.Nickname)?   If you want to reassign someone... now\'d be the time..."
+  branches {
+    responseText: "We\'re good Wheeler... take us in."
+    actions {
+      ops {
+        functionName: "Fade Camera Out"
+        args {
+          float_value: 0.75
+        }
+        args {
+          float_value: 0
+        }
+      }
+      ops {
+        functionName: "Send Event After Delay"
+        args {
+          call_value {
+            functionName: "Get Map Item (Event)"
+            args {
+              string_value: "Seaplane.Go"
+            }
+          }
+        }
+        args {
+          float_value: 1
+        }
+      }
+    }
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "Let me give it another glance..."
+    nextNodeIndex: 1
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "534a2279613131440d000dc1"
+  }
+}
+roots {
+  nextNodeIndex: 0
+}

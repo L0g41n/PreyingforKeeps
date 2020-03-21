@@ -1,56 +1,25 @@
 id: "Shadowrun Identity Project, 2057"
 variables {
-  name: "Alive.Wheeler"
-  typeName: "bool"
+  name: "Alias"
+  typeName: "string"
   defaultValue {
-    bool_value: true
+    string_value: "Otto Franks"
     variableref_value {
       scope: TsVariableScope_Story
-      name: "Alive.Wheeler"
+      name: "Alias"
+      typeName: "string"
     }
   }
 }
 variables {
-  name: "Alive.Duran"
-  typeName: "bool"
+  name: "AliasOld"
+  typeName: "string"
   defaultValue {
-    bool_value: true
+    string_value: ""
     variableref_value {
       scope: TsVariableScope_Story
-      name: "Alive.Duran"
-    }
-  }
-}
-variables {
-  name: "Alive.Elvis"
-  typeName: "bool"
-  defaultValue {
-    bool_value: true
-    variableref_value {
-      scope: TsVariableScope_Story
-      name: "Alive.Elvis"
-    }
-  }
-}
-variables {
-  name: "Alive.Shiva"
-  typeName: "bool"
-  defaultValue {
-    bool_value: true
-    variableref_value {
-      scope: TsVariableScope_Story
-      name: "Alive.Shiva"
-    }
-  }
-}
-variables {
-  name: "Alive.Trey"
-  typeName: "bool"
-  defaultValue {
-    bool_value: true
-    variableref_value {
-      scope: TsVariableScope_Story
-      name: "Alive.Trey"
+      name: "AliasOld"
+      typeName: "string"
     }
   }
 }
@@ -62,13 +31,153 @@ variables {
     variableref_value {
       scope: TsVariableScope_Story
       name: "Alive.Archangel"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "Alive.Duran"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Alive.Duran"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "Alive.Elvis"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Alive.Elvis"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "Alive.Shiva"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Alive.Shiva"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "Alive.Trey"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Alive.Trey"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "Alive.Wheeler"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Alive.Wheeler"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "bPlaneDamaged"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "bPlaneDamaged"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "iHydeTallow"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "iHydeTallow"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "iMarinaManager"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "iMarinaManager"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "Nickname"
+  typeName: "string"
+  defaultValue {
+    string_value: "Chief"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "Nickname"
+      typeName: "string"
+    }
+  }
+}
+variables {
+  name: "SIN"
+  typeName: "string"
+  defaultValue {
+    string_value: "9812-4498-6206-6842-4892-489X"
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "SIN"
+      typeName: "string"
+    }
+  }
+}
+variables {
+  name: "YakuzaBadAss"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "YakuzaBadAss"
+      typeName: "int"
     }
   }
 }
 description: "Buckled into the open cargo bay of the Fiat-Fokker Cloud Nine, Jack Skater felt the cool night air whip around him, carrying the wet taste of the approaching storm front. He trained his low-light binoculars on their prey. \n\"How\'s it look, Wheeler? You got a positive lock?\"\n\n\"Ninety-two percent probability of a hit,\" the dwarf rigger called from the cockpit where he was jacked into the controls of the amphibian plane, \"Targeting computer says that\'s the best you\'re gonna get.\"\n\nPeering through the binoculars. Skater saw the name Sapphire Seahawk emblazoned on the freighter\'s stern in English and Sperethiel and that she flew the flag of the elven nation of Tir Tairngire. Both would have been nearly invisible in the crawling dark of the storm, but the ship was running some lights, however minimal.\n\nPocketing the binox. Skater grabbed the lip of the cargo bay and hoisted himself back inside the plane. He unbuckled the safety harness and let it drop. At twenty-five, he was dark and slim, something under two meters, with high cheekbones, dusky skin, and thick, close-cropped black hair that showed the influence of Salish blood. He lived in Seattle now, and had since 2049, but he\'d grown up in the Salish-Shidhe Council lands surrounding that outpost of the United Canadian and AmericanStates that was the Seattle sprawl."
-startScene: "Preying for Keeps - the Sapphire Seahawk"
+startScene: "Scene1-SaphireSeaHawk"
 allowFallbackCharacter: true
-fallbackCharacterName: "c17_testsam"
+fallbackCharacterName: "P4K_Jack_Skater"
+useDefaultEquipment: true
+defaultCharacterEquipment: "Jack_Skater_OnRun"
+storyKarmaLevel: 150
+resalePercent: 75
+upgradeToThreeApLevel: 117
+upgradeToFourApLevel: 220
+show_conversation_triggering_actor: true
 character_roster {
   roster_entries {
     reference_id: "lvl1_dwarf_rigger"

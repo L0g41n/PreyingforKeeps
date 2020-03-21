@@ -1,0 +1,60 @@
+prefab_name: "Seattle:Core/ElfFemale"
+character_sheet_id: "BaseCivilian"
+equipment_sheet_id: "ArchAngel_OnRun"
+character_mod {
+  stats {
+    body: 3
+    quickness: 3
+    strength: 2
+    charisma: 4
+    intelligence: 6
+    willpower: 4
+    essence: 0
+    hp: 5
+    ap: 1
+    armor: 6
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 0
+  }
+  skills {
+    ranged_combat: 5
+    close_combat: 0
+    decking: 7
+    biotech: 2
+    dodge: 0
+    etiquette_corporate: 1
+    etiquette_socialite: 1
+    etiquette_shadowrunner: 1
+    etiquette_academic: 1
+  }
+  specializations {
+    smg: 5
+    unarmed: 0
+    esp_control: 5
+  }
+  vulnerabilities {
+  }
+}
+equipment {
+  prefab_name: "Berlin_BuMoNAPlatinum"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+team_id: "Shadowrunners"
+char_name: "ArchAngel"
+pc_spawn_number: -1
+hiring_type: HiringType_None
+cyberware_eyes: "Berlin_BrightLight System"
+cyberware_jack: "Berlin_Encephalon"
+portrait {
+  filename: "Archangel"
+}
+portrait_code_override: "s5h2c2b0t0"
+karma: 160
+hiring_cost_override: 1000

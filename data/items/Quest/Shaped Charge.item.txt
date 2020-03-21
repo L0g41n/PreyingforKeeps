@@ -1,0 +1,8 @@
+id: "Shaped Charge"
+type: ItemType_QuestItem
+uirep {
+  name: "Shaped Charge"
+  description: "A powerful shaped charge.  Taken from the body of the SeaHawk\'s Captain \'RazorGirl\'"
+}
+credentials: 0
+sorting_group: "Quest"

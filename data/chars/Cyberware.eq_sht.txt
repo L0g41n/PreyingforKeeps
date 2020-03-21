@@ -1,0 +1,121 @@
+unique_id: "Cyberware"
+equipment {
+  prefab_name: "Berlin_Obvious Cyberarm"
+}
+equipment {
+  prefab_name: "Berlin_Obvious Cyberarm 2"
+}
+equipment {
+  prefab_name: "Obvious Cyberarm"
+}
+equipment {
+  prefab_name: "Obvious Cyberarm 2"
+}
+equipment {
+  prefab_name: "Berlin_Induction Datajack"
+}
+equipment {
+  prefab_name: "Berlin_Auto-Injector (Hyper)"
+}
+equipment {
+  prefab_name: "Wired Reflexes"
+}
+equipment {
+  prefab_name: "Dermal Plating Mk 2"
+}
+equipment {
+  prefab_name: "Dermal Plating Mk 1"
+}
+equipment {
+  prefab_name: "Bone Lacing Kevlar"
+}
+equipment {
+  prefab_name: "Bone Lacing Kevlar 2"
+}
+equipment {
+  prefab_name: "Bone Lacing Kevlar 2"
+}
+equipment {
+  prefab_name: "Berlin_Tailored Pheromones (Bioware)"
+}
+equipment {
+  prefab_name: "Berlin_Synthacardium Mk 2 (Bioware)"
+}
+equipment {
+  prefab_name: "Berlin_Synthacardium Mk 1 (Bioware)"
+}
+equipment {
+  prefab_name: "Berlin_Suprathyroid (Bioware)"
+}
+equipment {
+  prefab_name: "Berlin_Dermal Plating Mk 2"
+}
+equipment {
+  prefab_name: "Berlin_Dermal Plating Mk 1"
+}
+equipment {
+  prefab_name: "Berlin_Bone Lacing Kevlar"
+}
+equipment {
+  prefab_name: "Berlin_Bone Lacing Kevlar 2"
+}
+equipment {
+  prefab_name: "Vision Magnification Eyes"
+}
+equipment {
+  prefab_name: "Vision Magnification Eyes 2"
+}
+equipment {
+  prefab_name: "Berlin_Vision Magnification Eyes"
+}
+equipment {
+  prefab_name: "Berlin_Vision Magnification Eyes 2"
+}
+equipment {
+  prefab_name: "Berlin_Laser Designator"
+}
+equipment {
+  prefab_name: "Berlin_Eye Datajack"
+}
+equipment {
+  prefab_name: "Berlin_BrightLight System"
+}
+equipment {
+  prefab_name: "Datajack"
+}
+equipment {
+  prefab_name: "Berlin_Trauma Damper (Bioware)"
+}
+equipment {
+  prefab_name: "Berlin_Synthetic Cyberskull"
+}
+equipment {
+  prefab_name: "Berlin_Obvious Cyberskull"
+}
+equipment {
+  prefab_name: "Berlin_Encephalon"
+}
+equipment {
+  prefab_name: "Berlin_Encephalon Mk2"
+}
+equipment {
+  prefab_name: "Berlin_Datajack"
+}
+equipment {
+  prefab_name: "Obvious Cyberleg"
+}
+equipment {
+  prefab_name: "Obvious Cyberleg 2"
+}
+equipment {
+  prefab_name: "Berlin_Obvious Cyberleg"
+}
+equipment {
+  prefab_name: "Berlin_Obvious Cyberleg 2"
+}
+equipment {
+  prefab_name: "Berlin_Hydraulic Jack Mk 2"
+}
+equipment {
+  prefab_name: "Berlin_Hydraulic Jack Mk 1"
+}

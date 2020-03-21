@@ -1,0 +1,37 @@
+unique_id: "ArchAngel_OnRun"
+equipment {
+  prefab_name: "DeckerFab"
+}
+equipment {
+  prefab_name: "CyberdeckExcalibur"
+}
+equipment {
+  prefab_name: "ESP Shield"
+}
+equipment {
+  prefab_name: "PR Supression 1"
+}
+equipment {
+  prefab_name: "PR Sniffer 2"
+}
+equipment {
+  prefab_name: "PR Medic 3"
+}
+equipment {
+  prefab_name: "PR Shield 2"
+}
+equipment {
+  prefab_name: "PR Erosion 3"
+}
+equipment {
+  prefab_name: "PR Blaster 3"
+}
+equipment {
+  prefab_name: "ESP Shield 2"
+}
+equipment {
+  prefab_name: "PR Killjoy 2"
+}
+equipment {
+  prefab_name: "SMG 1 Uzi III (Smartlink)"
+}

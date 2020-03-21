@@ -1,0 +1,16 @@
+unique_id: "Quint_Duran_OnRun"
+equipment {
+  prefab_name: "Player_RiggerTrenchcoat"
+}
+equipment {
+  prefab_name: "Sh 3 Enfield AS-7 (Smartlink)"
+}
+equipment {
+  prefab_name: "Berlin_BuMoNAPlatinum"
+}
+equipment {
+  prefab_name: "HealthPack_hi"
+}
+equipment {
+  prefab_name: "Berlin_Fist 1 Spiked Fist"
+}
